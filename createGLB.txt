@@ -1,1 +1,1 @@
-npx gltfjsx public/models/688379fb5261d5d7f3d7921a.glb -o src/components/Avatar.jsx -k -r public
+npx gltfjsx public/models/CAR.glb -o src/components/CAR.jsx -k -r public

@@ -1,4 +1,7 @@
 export const config = {
   sections: ["home", "skills", "projects", "contact"],
-  home: { title: "BALTIC", subtitle: "TOWER" },
+  home: { title: "DALUX", subtitle: "SUMMIT" },
+  contact: {
+    mail: "Alex",
+  },
 };
