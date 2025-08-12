@@ -28,6 +28,7 @@ import { CAR } from "./CAR";
 import { Latarka_MAPA } from "./Latarka_MAPA";
 import { Mapa_Pineska_Duza } from "./Mapa_Pineska_Duza";
 import { PetrolStation } from "./PetrolStation";
+import { Famaly } from "./Famaly";
 
 const SECTIONS_DISTANCE = 10;
 
@@ -190,7 +191,17 @@ export const Experience = () => {
                 THREE.MathUtils.degToRad(0), // oś Z
               ]}
             />
-
+            <Famaly
+              scale={1.5}
+              position-z={2.8}
+              position-x={0}
+              position-y={0.8}
+              rotation={[
+                THREE.MathUtils.degToRad(0), // oś X
+                THREE.MathUtils.degToRad(-50), // oś Y
+                THREE.MathUtils.degToRad(0), // oś Z
+              ]}
+            />
             <Float floatIntensity={1} speed={1.2} rotationIntensity={0.3}>
               <Mapa_Pineska_Duza
                 scale={1}
